@@ -1,0 +1,6 @@
+git hash objects: all files are stored as blob binaries with their contents hashed using sha1, contain file-type, size, sha1-hash(as filename) and contents
+git tree objects: the file structure(name of files and directories) is stored in git tree object format again in sha1 encoded format, contain file-type, sha1-hash, permissions and file/directory names
+
+content+object_type+size=hash
+
+working_directory(pwd) <=> staging_area <=> git_repository(.git)

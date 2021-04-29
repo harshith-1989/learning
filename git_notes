@@ -4,3 +4,4 @@ git tree objects: the file structure(name of files and directories) is stored in
 content+object_type+size=hash
 
 working_directory(pwd) <=> staging_area <=> git_repository(.git)
+- checkout: get the files from git repo to the working directory
